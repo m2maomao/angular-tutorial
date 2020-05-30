@@ -4,7 +4,7 @@ import { Hero } from './hero';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>{{title}}</h1>
+    <h1>{{title}}1</h1>
     <h2>My favorite hero is: {{myHero.name}}</h2>
     <p>Heroes:</p>
     <ul>
