@@ -3,15 +3,7 @@ import { Hero } from './hero';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <h1>{{title}}1</h1>
-    <h2>My favorite hero is: {{myHero.name}}</h2>
-    <p>Heroes:</p>
-    <ul>
-      <li *ngFor="let hero of heroes">{{hero.name}}</li>
-    </ul>
-    <p *ngIf="heroes.length>3">There are many heroes!</p>
-  `,
+  templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent {
