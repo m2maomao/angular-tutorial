@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { VotetakerComponent } from './votetaker/votetaker.component';
+import { CounterParentComponent } from './counter-parent/counter-parent.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'vote',
     component: VotetakerComponent
+  },
+  {
+    path: 'counter',
+    component: CounterParentComponent
   }
 ];
 

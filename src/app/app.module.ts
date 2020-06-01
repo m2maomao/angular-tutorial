@@ -18,10 +18,12 @@ import { HttpComponent } from './http/http.component';
 import { HomeComponent } from './home/home.component';
 import { VotetakerComponent } from './votetaker/votetaker.component';
 import { VoterComponent } from './voter/voter.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { CounterParentComponent } from './counter-parent/counter-parent.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent ],
+  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent, CountdownTimerComponent, CounterParentComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
