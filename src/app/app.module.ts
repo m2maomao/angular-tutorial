@@ -16,10 +16,12 @@ import { HeaderComponent } from './header/header.component';
 import { TransitionComponent } from './transition/transition.component';
 import { HttpComponent } from './http/http.component';
 import { HomeComponent } from './home/home.component';
+import { VotetakerComponent } from './votetaker/votetaker.component';
+import { VoterComponent } from './voter/voter.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent ],
+  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
