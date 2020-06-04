@@ -34,7 +34,9 @@ export class MissionControlComponent {
   }
   // 发布任务
   announce() {
+    // mission任务赋值
     let mission = this.missions[this.nextMission++];
+    // 调用服务
     this.missionService.announceMission(mission);
     this.history.push(`Mission "${mission}" announced`);
     if(this.nextMission >= this.missions.length) {this.nextMission = 0}
