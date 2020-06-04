@@ -21,10 +21,12 @@ import { VoterComponent } from './voter/voter.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CounterParentComponent } from './counter-parent/counter-parent.component';
 import { MissionService } from './mission.service';
+import { MissionControlComponent } from './missioncontrol.component';
+import { AstronautComponent } from './astronaut.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent, CountdownTimerComponent, CounterParentComponent ],
+  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent, CountdownTimerComponent, CounterParentComponent,MissionControlComponent, AstronautComponent ],
   bootstrap:    [ AppComponent ],
   providers: [MissionService]
 })

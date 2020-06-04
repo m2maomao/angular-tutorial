@@ -32,7 +32,7 @@ export class MissionControlComponent {
       }
     )
   }
-
+  // 发布任务
   announce() {
     let mission = this.missions[this.nextMission++];
     this.missionService.announceMission(mission);

@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { VotetakerComponent } from './votetaker/votetaker.component';
 import { CounterParentComponent } from './counter-parent/counter-parent.component';
+import { MissionControlComponent } from './missioncontrol.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'counter',
     component: CounterParentComponent
+  },
+  {
+    path: 'mission',
+    component: MissionControlComponent
   }
 ];
 
