@@ -23,10 +23,11 @@ import { CounterParentComponent } from './counter-parent/counter-parent.componen
 import { MissionService } from './mission.service';
 import { MissionControlComponent } from './missioncontrol.component';
 import { AstronautComponent } from './astronaut.component';
+import { AdDirective } from './ad.directive';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent, CountdownTimerComponent, CounterParentComponent,MissionControlComponent, AstronautComponent ],
+  declarations: [ AppComponent, HeroChildComponent, HeroParentComponent, NameChildComponent, NameParentComponent, VersionParentComponent, VersionChildComponent, NewsComponent, HeaderComponent, TransitionComponent, HttpComponent, HomeComponent, VotetakerComponent, VoterComponent, CountdownTimerComponent, CounterParentComponent,MissionControlComponent, AstronautComponent, AdDirective ],
   bootstrap:    [ AppComponent ],
   providers: [MissionService]
 })

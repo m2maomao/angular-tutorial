@@ -1,0 +1,9 @@
+h4{
+  /* color:#666 */
+}
+.box{
+  background:pink;
+}
+:host(.red) {
+  color:red;
+}
